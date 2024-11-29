@@ -14,6 +14,6 @@ func main() {
 		PokeapiClient: &pokeClient,
 		Pagination:    &locations.ApiPagination{},
 	}
-	// cambios
+	// cambios en el main
 	repl.StartRepl(cmdArgs)
 }
